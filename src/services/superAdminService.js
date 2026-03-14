@@ -9,8 +9,8 @@ const getToken = () => {
 // Create an Axios instance for your API
 // const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 // const API_URL = 'https://smartbusiness-rr4o.onrender.com/api/superadmin'; 
-const API_URL = 'http://localhost:5000/api/superadmin'; 
-// const API_URL: "https://smartdhandha-backend-1.onrender.com/api/superadmin";
+// const API_URL = 'http://localhost:5000/api/superadmin'; 
+const API_URL= "https://smart-dhandha-backend.onrender.com/api/superadmin";
 
 const getAuthHeaders = () => {
   const token = getToken(); // This will now find the correct token

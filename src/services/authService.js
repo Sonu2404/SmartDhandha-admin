@@ -92,7 +92,7 @@ import axios from "axios";
 // 🔥 Change baseURL when deploying
 const API = axios.create({
   // baseURL: "http://localhost:5000/api/auth",
-  baseURL: "https://smartdhandha-backend-1.onrender.com/api/auth",
+  baseURL: "https://smart-dhandha-backend.onrender.com/api/auth",
 });
 
 // ================= REGISTER =================

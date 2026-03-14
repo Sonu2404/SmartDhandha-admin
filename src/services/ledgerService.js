@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance specifically for ledger routes
 const API = axios.create({
-  baseURL: 'https://smartdhandha-backend-1.onrender.com/api/ledger', 
+  baseURL: 'https://smart-dhandha-backend.onrender.com/api/ledger', 
       // baseURL: "http://localhost:5000/api/ledger",
 
 });

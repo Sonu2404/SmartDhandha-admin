@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an axios instance
 const API = axios.create({
-  baseURL: "https://smartdhandha-backend-1.onrender.com/api",
+  baseURL: "https://smart-dhandha-backend.onrender.com/api",
       // baseURL: "http://localhost:5000/api",
 });
 
